@@ -3,10 +3,10 @@ import cv2
 from cv2 import dnn
 
 #--------Model file paths--------#
-proto_file = "\Model\colorization_deploy_v2.prototxt"
-model_file = "\Model\colorization_release_v2_norebal.caffemodel"
-hull_pts = "\Model\pts_in_hull.npy"
-img_path = '\satellite.jpeg'
+proto_file = 'Model/colorization_deploy_v2.prototxt'
+model_file = 'Model/colorization_release_v2_norebal.caffemodel'
+hull_pts = 'Model/pts_in_hull.npy'
+img_path = 'download.jpeg'
 #--------------#--------------#
 
 #--------Reading the model params--------#
