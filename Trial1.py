@@ -6,7 +6,7 @@ from cv2 import dnn
 proto_file = 'Model/colorization_deploy_v2.prototxt'
 model_file = 'Model/colorization_release_v2_norebal.caffemodel'
 hull_pts = 'Model/pts_in_hull.npy'
-img_path = 'download.jpeg'
+img_path = 'satellite.jpeg'
 #--------------#--------------#
 
 #--------Reading the model params--------#
